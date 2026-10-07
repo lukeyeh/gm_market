@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "bedrock": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1791263239,
+        "narHash": "sha256-OY9IlXXojxFRCNzGJ/+bWzO2XZAPqEdMuzCCaiz0nWk=",
+        "owner": "lukeyeh",
+        "repo": "bedrock",
+        "rev": "b04a40d4a64190bcf194181ebdcab60f7492d82b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lukeyeh",
+        "repo": "bedrock",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1791179034,
+        "narHash": "sha256-Ni0LBydzaCi8oek12r4mVreuFHqYlM1eTD6SfiENKfw=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "494ce7fd23ff6a5dff39e1fb11e9b6f2ac74bf25",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "bedrock": "bedrock",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
